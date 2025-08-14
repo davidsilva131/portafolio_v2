@@ -1,4 +1,5 @@
 import { ExternalLink, Github } from "lucide-react";
+import Image from "next/image";
 import { Badge } from "./badge";
 import { Button } from "./button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./card";
@@ -14,10 +15,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
       {/* Project Image */}
       <div className="aspect-video bg-muted relative overflow-hidden">
         {project.image ? (
-          <img 
+          <Image 
             src={project.image} 
             alt={project.title}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-muted-foreground">

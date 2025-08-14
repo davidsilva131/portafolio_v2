@@ -106,8 +106,8 @@ export function LocationCard() {
         {/* Quick Note */}
         <div className="bg-muted/50 rounded-lg p-4">
           <p className="text-sm text-muted-foreground">
-            <strong>Note:</strong> I'm always open to discussing interesting projects. 
-            Even if I'm currently busy, feel free to reach out and we can schedule 
+            <strong>Note:</strong> I&apos;m always open to discussing interesting projects. 
+            Even if I&apos;m currently busy, feel free to reach out and we can schedule 
             something for the future!
           </p>
         </div>

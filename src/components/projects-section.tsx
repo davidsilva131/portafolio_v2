@@ -2,7 +2,6 @@
 
 import { ProjectsGrid } from "./ui/projects-grid";
 import { projectsData } from "../data/projects";
-import { Separator } from "@/components/ui/separator";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function ProjectsSection() {
